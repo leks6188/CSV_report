@@ -10,9 +10,9 @@ pip install -r requirements.txt
 python main.py --files data1.csv data2.csv --report average-rating
 ```
 
-## Тесты
+## Тесты (написаны AI)
 ```bash
-pytest tests_(AI)/ -v
+pytest tests -v
 ```
 
 ## Добавление нового отчёта 

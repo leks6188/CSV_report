@@ -24,7 +24,7 @@ galaxy,samsung,1199,4.8"""
         with patch('builtins.open', mock_open(read_data=csv_data)):
             with patch('main.tabulate') as mock_tabulate:
                 # Вызываем тестируемую функцию
-                calculate_average_rating(['test.csv'])
+                calculate_average_rating(['tests.csv'])
 
                 # Проверяем что tabulate был вызван (значит функция работает)
                 assert mock_tabulate.called
@@ -38,7 +38,7 @@ product3,samsung,799,4.0"""
 
         with patch('builtins.open', mock_open(read_data=csv_data)):
             with patch('main.tabulate') as mock_tabulate:
-                calculate_average_rating(['test.csv'])
+                calculate_average_rating(['tests.csv'])
 
                 # Получаем данные которые передали в tabulate
                 call_args = mock_tabulate.call_args[0]  # аргументы функции
