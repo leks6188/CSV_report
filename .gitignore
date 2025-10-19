@@ -1,0 +1,17 @@
+.env
+.idea/.DS_Store
+Thumbs.db
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+logs/
+__pycache__/
+*.py[cod]
+*$py.class
+.python_history
+
