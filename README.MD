@@ -12,7 +12,7 @@ python main.py --files data1.csv data2.csv --report average-rating
 
 ## Тесты
 ```bash
-pytest tests/ -v
+pytest tests_(AI)/ -v
 ```
 
 ## Добавление нового отчёта 
